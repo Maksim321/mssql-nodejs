@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Сайт</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type = "text/css" href="css/main.css" />
+    <script type="text/javascript" src="lib/jquery-3.2.1.js"></script>
+    <script src="js/htmlTableCreator.js"></script>
+    <script src="js/htmlMenuCreator.js"></script>
+    <script src="js/savedTable.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+  	<div class="start-input">
+      <input type="text" id="txt-login" value="Adminka"/>
+      <input type="password" id="txt-password" value="abcd123A"/>
+      <input type="button" id="btn-login" value="Вход" />
+    </div>
+    <div class="container">
+      <header>
+      	<a href="/" class="logo"></a>
+      </header>
+      <div class="tab_container">
+        <div class="menu">
+          <ul class="menu_container"></ul>
+        </div>
+        <div class="tables">
+          <div class="table_container"></div>
+          <div class="inputs_container">
+            <div class="inputs_container-text">
+            </div>
+            <div class="inputs_container-button">
+              <input type="button" id="addButton" value="Добавить"/>
+              <input type="button" id="UpdateButton" value="Обновить"/>
+              <input type="button" id="DeleteButton" value="Удалить"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
